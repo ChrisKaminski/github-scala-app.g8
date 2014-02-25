@@ -52,7 +52,7 @@ Directions [here](https://github.com/n8han/giter8).
 g8 knucklesandwich/github-scala-app
 ```
 
-## THANX
+## Thanx
 
 To all who build awesome open source projects.
 
