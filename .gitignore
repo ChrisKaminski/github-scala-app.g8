@@ -1,0 +1,40 @@
+# scala / java
+*.class
+*.log
+
+# sbt
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# emacs
+*~
+\#*\#
+.\#*
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+
+# intellij
+.idea_modules/
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+# sublime
+*.sublime-workspace
+
+# os x
+.DS_Store
+.Spotlight-V100
+.Trashes
