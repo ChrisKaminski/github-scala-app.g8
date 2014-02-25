@@ -6,16 +6,20 @@ a scala app looks like. It includes the following things:
 ### .gitignore
 Configured to ignore any gunk left by vim, emacs, IntelliJ, Sublime Text, sbt, scala, and OS X.
 
-### A barebones project structure
+### .travis.yml
+A typical [Travis CI](https://travis-ci.org) config file for doing continuous integration.
 
-With a "hello world" main class and the start of a command-line args parser.
+### lib
+A library component of the overall app. My feeling is that every great standalone app should expose as much of its guts as possible in decoupled library components.
+
+### app
+The main application module of the overall app. Limit this as much as possible to command line parsing / light interaction with the underlying library.
 
 ### A license
 [MIT](http://opensource.org/licenses/MIT)
 
 ### A boilerplate markdown readme
-(much like this one) 
-
+(much like this one)
 
 ### Libs
 The current release will always (to the best of my extent) come packaged with the latest versions of
@@ -28,11 +32,12 @@ The current release will always (to the best of my extent) come packaged with th
 * [scopt](https://github.com/scopt/scopt)
 
 ### sbt plugins
-* the [ls.implicit.ly](http://ls.implicit.ly/) [plugin](https://github.com/softprops/ls-sbt)
+* the [ls.implicit.ly](http://ls.implicit.ly/) [plugin](https://github.com/softprops/ls)
 * [scalastyle](http://www.scalastyle.org/)
 * [sbt-buildinfo](https://github.com/sbt/sbt-buildinfo)
 * [sbt-dependency-graph](https://github.com/jrudolph/sbt-dependency-graph)
 * [sbt-idea](https://github.com/mpeltonen/sbt-idea)
+* [sbt-license-report](https://github.com/sbt/sbt-license-report)
 * [sbt-pack](https://github.com/xerial/sbt-pack)
 * [sbt-stats](https://github.com/orrsella/sbt-stats)
 * [sbt-updates](https://github.com/rtimush/sbt-updates)

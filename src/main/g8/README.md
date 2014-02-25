@@ -1,5 +1,8 @@
 # $name$
 
+[![Build Status](https://secure.travis-ci.org/$github_username$/$name$.png?branch=master)](http://travis-ci.org/$github_username$/$name$)
+
+
 ## Description
 
 ## Build
@@ -12,7 +15,7 @@ cd $name$
 
 ## Run
 ```
-./target/pack/bin/$name$
+./app/target/pack/bin/$name$
 ```
 
 ## Usage
